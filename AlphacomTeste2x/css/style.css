@@ -5,8 +5,8 @@
 	top: 0;
 	left: 0;
 	font-family: 'Josefin Slab', 'Myriad Pro', Arial, sans-serif;
+	
 }
-
 .st-container > input,
 .st-container > a {
 	position: fixed;
@@ -60,6 +60,8 @@
 }
 
 
+
+
 .st-container > input:checked + a,
 .st-container > input:checked:hover + a{
 	background: #4B0082 ;
@@ -110,9 +112,110 @@
 }
 
 .st-panel{
-	background: #330066;
+	background-image: url('file:///C:/Users/gblnpt/Downloads/AlphacomTeste2x/images/demo1.jpg');
 	overflow: hidden;
-} 
+}
+
+#eqImg{
+   position: absolute;
+   height: 800px;
+   width: 800px;
+   top: 200px;
+   left: 250px;
+}
+
+.imgPosition1{
+    position:absolute;
+    left:23%;
+    top: 500px;
+    height: 170px;
+    width: 170px;
+ }
+ 
+ .imgPosition2{
+    position:absolute;
+    left:43%;
+    top: 500px;
+    height: 170px;
+    width: 170px;
+ }
+ 
+ .imgPosition3{
+     position : absolute;
+     left: 63%;
+     top: 500px;
+     height: 170px;
+     width: 170px;
+ 
+ }
+ 
+ #ajuste1{
+    position:absolute;
+    left:43%;
+    top:470px;
+    font-size:60px;
+     
+ }
+ 
+ #ajuste2{
+    Position: absolute;
+    left:63%;
+    top:470px;
+    font-size:60px;
+ }
+ 
+ #ajuste{
+  position:absolute;
+  left:23%;
+  top: 470px;
+  font-size: 60px;
+ }
+
+.imgPosition{
+   position: absolute;
+   left: 19%;
+   top: 200px;
+   height: 800px;
+   width : 800px;
+}
+
+#tamanhoh2{
+   font-size: 130px;
+   left:9.5%;
+   top: 0;
+   color:#fff;
+}
+
+.tamanhoP1{
+  font-size: 28px;
+  left:4%;
+  top:150px;
+  color:#fff;
+  
+}
+
+.tamanhoP2{
+  font-size: 28px;
+  left:4%;
+  top:190px;
+  color:#fff;
+  
+}
+
+.tamanhoP3{
+  font-size: 28px;
+  left:4%;
+  top:230px;
+  color:#fff;
+  
+}
+
+.tamanhoP4{
+  font-size: 28px;
+  left:4%;
+  top:270px;
+  color:#fff;
+}
 
 #st-control-1:checked ~ .st-scroll {
 	-webkit-transform: translateY(0%);
@@ -198,14 +301,12 @@
 	width: 80%;
 	left: 10%;s
 	text-align: center;
-	line-height: 50px;
 	-webkit-backface-visibility: hidden;
 }
 
 #st-control-1:checked ~ .st-scroll #st-panel-1 ,
 #st-control-2:checked ~ .st-scroll #st-panel-2 ,
-#st-control-3:checked ~ .st-scroll #st-panel-3 ,
-#st-control-4:checked ~ .st-scroll #st-panel-4 {
+#st-control-3:checked ~ .st-scroll #st-panel-3 {
 
 	-webkit-animation: moveDown 0.6s ease-in-out 0.2s backwards;
 	-moz-animation: moveDown 0.6s ease-in-out 0.2s backwards;
@@ -268,25 +369,14 @@
 	}
 }
 
+
+
 .st-panel p {
-	position: absolute;
-	text-align: center;
-	font-size: 16px;
-	line-height: 22px;
-	color: #fff;
-	z-index: 2;
-	padding: 0;
-	width: 50%;
-	left: 25%;
-	top: 50%;
-	margin: 10px 0 0 0;
-	-webkit-backface-visibility: hidden;
+  position:absolute;
 }
 #st-control-1:checked ~ .st-scroll #st-panel-1 ,
 #st-control-2:checked ~ .st-scroll #st-panel-2 ,
-#st-control-3:checked ~ .st-scroll #st-panel-3 ,
-#st-control-4:checked ~ .st-scroll #st-panel-4 ,
-#st-control-5:checked ~ .st-scroll #st-panel-5 {
+#st-control-3:checked ~ .st-scroll #st-panel-3 {
 	-webkit-animation: moveUp 0.6s ease-in-out 0.2s backwards;
 	-moz-animation: moveUp 0.6s ease-in-out 0.2s backwards;
 	-o-animation: moveUp 0.6s ease-in-out 0.2s backwards;
@@ -376,7 +466,7 @@
 	.st-panel p {
 		width: 90%;
 		left: 5%;
-		margin-top: 0;
+		top: 0;
 	}
 	
 	.st-container > a {

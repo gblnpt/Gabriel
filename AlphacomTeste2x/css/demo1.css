@@ -61,9 +61,161 @@ a{
 #animacaodoh2 {
   animation-duration: 2s;
   animation-name: slidein;
-  margin-top: 200px;
-  animation-delay: 0s;
+  margin-top: 100px;
+  animation-delay: 14s;
  
+}
+
+#animacaoIcon{
+  animation-duration:3s;
+  animation-name: slideoff;
+  top: 500px;
+  animation-delay: 14s;
+}
+
+#animacaoIcon1{
+  animation-duration:3s;
+  animation-name: slideoff;
+  top: 500px;
+  animation-delay: 14s;
+}
+
+#animacaoIcon2{
+  animation-duration:2s;
+  animation-name: slideoff;
+  top: 500px;
+  animation-delay: 14s;
+}
+
+#animacaoText1{
+  animation-duration: 2s;
+  animation-name: textA;
+  top:150px;
+  left:4%;
+  animation-delay: 14s;
+
+}
+
+#animacaoText2{
+  animation-duration: 2s;
+  animation-name: textA;
+  top:190px;
+  left:4%;
+  animation-delay: 14s;
+
+}
+
+#animacaoText3{
+  animation-duration: 2s;
+  animation-name: textA;
+  top:230px;
+  left:4%;
+  animation-delay: 14s;
+
+}
+
+#animacaoText4{
+  animation-duration: 2s;
+  animation-name: textA;
+  top:270px;
+  left:4%;
+  animation-delay: 14s;
+
+}
+
+.alinharx{
+   color:#fff;
+   font-size: 50px;
+   left: 50px;
+}
+
+.alinhar2{
+   color: #fff;
+   font-size: 40px;
+   left: 10%;
+   top: 280px;
+}
+
+.alinhar3{
+   color: #fff;
+   font-size: 40px;
+   left: 10%;
+   top: 320px;
+}
+
+.alinhar4{
+   color: #fff;
+   font-size: 40px;
+   left: 10%;
+   top: 360px;
+}
+
+.alinhar5{
+   color: #fff;
+   font-size: 40px;
+   left: 10%;
+   top: 400px;
+}
+
+.posicaoimg1{
+  position: absolute;
+  top: 600px;
+  left:80px;
+}
+
+.posicaoimg2{
+  position: absolute;
+  left: 280px;
+  top: 600px;
+}
+
+.posicaoimg3{
+  position: absolute;
+  top: 600px;
+  left: 480px;
+}
+
+.posicaoimg4{
+  position: absolute;
+  top: 600px;
+  left:680px;
+}
+
+.posicaoimg5{
+  position: absolute;
+  top: 600px;
+  left: 880px;
+}
+
+.posicaoimg6{
+  position: absolute;
+  top: 600px;
+  left: 1080px;
+}
+
+@keyframes textA{
+    0%{
+      left : 100%;
+    }
+    
+    100%{
+      left: 4%;
+    }
+  
+}
+
+
+
+@keyframes slideoff{
+   0%{
+       top: -100px; 
+      }
+   
+   100%{
+     top: 500px;
+   }
+ 
+
 }
  
 @keyframes slidein {
@@ -72,7 +224,7 @@ a{
    }
    
   100%{
-      margin-top: 200px;
+      margin-top: 100px;
    }
 }
 
@@ -82,26 +234,14 @@ a{
   bottom:10%;
   animation-delay: 6s;
   margin-left:500px;
- 
- 
 }
 
 #animacaodoh5{
    animation-duration: 2s;
   animation-name: slidein;
-  margin-top: 200px;
+  margin-top: 100px;
   animation-delay: 6s;
   animation-timing-function:linear;
-}
-
-#animacaodoh3 {
-  animation-duration: 4s;
-  animation-name: slidein1;
-  bottom:10%;
-  animation-delay: 0s;
-  margin-left:300px;
-  animation-timing-function:linear;
-  
 }
 
 
@@ -192,7 +332,7 @@ a{
 	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
 	font-size: 35px;
 	line-height: 35px;
-	position: relative;
+	position: absolute;
 	font-weight: 400;
 	color: #fff;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
